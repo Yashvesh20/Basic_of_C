@@ -1,44 +1,30 @@
 Yashvesh Singh 24070123138
+#include<iostream>
+using namespace std;
+int main() {
+      cout << "  Simple Calculator  " << endl;
+      float a,b;
+      cout << "Enter the first number: ";
+      cin >> a;
+      cout << "Enter the second number: ";
+      cin >> b;
+      float sum = a + b;
+      float diff = a - b;
+      float mult = a * b;
+      float div = a / b;
+      cout << "\nSum: " << sum; 
+      cout << "\nDifference: " << diff;  
+      cout << "\nProduct: " << mult;  
+      cout << "\nDivision: " << div;  
+    return 0;
+    
+}
+output:
+  Simple Calculator  
+Enter the first number: 20
+Enter the second number: 22
 
-#include<iostream>
-using namespace std;
-int main()
-{
-cout<<"Hello World"<<endl;
-cout<<"First Program";
-return 0;
-}
---------------------------------------------------------------------------------------------------------------
-#include<iostream>
-using namespace std;
-int main()
-{
-int num1,num2;
-cout<<"Enter the First Number"<<endl;
-cin>>num1;
-cout<<"Enter The Second number"<<endl;
-cin>>num2;
-int num3=num1+num2;
-cout<<num3<<endl;
-return 0;
-}
---------------------------------------------------------------------------------------------------------------
-#include<iostream>
-using namespace std;
-int main()
-{
-float num1,num2;
-cout<<"Enter the First Number"<<endl;
-cin>>num1;
-cout<<"Enter The Second number"<<endl;
-cin>>num2;
-int num3=num1+num2;
-cout<<"Add: "<<num3<<endl;
-int nums=num1-num2;
-cout<<"Sub: "<<nums<<endl;
-int numm=num1*num2;
-cout<<"mult: "<<numm<<endl;
-float div=num1/num2;
-cout<<"div: "<<div<<endl;
-return 0;
-}
+Sum: 42
+Difference: -2
+Product: 440
+Division: 0.909091
